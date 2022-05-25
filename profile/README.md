@@ -5,8 +5,6 @@ Drogue IoT consists of components that may be used standalone or together:
 * **Drogue Cloud** is an efficient and scalable connectivity layer for forwarding telemetry data safely from devices to business applications, and commands back to devices. 
 * **Drogue Device** is an SDK for writing safe and efficient applications on microcontroller type of systems. 
 
-Go to our [documentation](https://book.drogue.io/drogue-cloud/dev/index.html) to get started with Drogue IoT, and join the community [chat](https://matrix.to/#/#drogue-iot:matrix.org).
-
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Cloud</b></td>
@@ -25,7 +23,7 @@ With Drogue Cloud you can:
 Go to [https://sandbox.drogue.cloud](https://sandbox.drogue.cloud) and see for yourself!
     </td>
     <td>
-Drogue Device is an SDK for building embedded applications in Rust.
+Drogue Device is an SDK for writing embedded applications:
 
 * Robust: built using [Rust](https://www.rust-lang.org), an efficient, memory safe and thread safe programming language.
 * Efficient: uses [embassy](https://github.com/embassy-rs/embassy), the embedded async project, to deliver a fast and small runtime.
@@ -34,6 +32,8 @@ Drogue Device is an SDK for building embedded applications in Rust.
     </td>
  </tr>
 </table>
+
+Go to our [documentation](https://book.drogue.io/drogue-cloud/dev/index.html) to get started with Drogue IoT, and join the community [chat](https://matrix.to/#/#drogue-iot:matrix.org).
 
 ## Getting started
 
