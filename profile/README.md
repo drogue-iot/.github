@@ -15,10 +15,10 @@ Drogue IoT consists of components that may be used standalone or together:
 With Drogue Cloud you can:
 
 * Report telemetry data using open standards like HTTP, MQTT, CoAP or third party networks like LoRaWAN, LTE-M or NB-IoT.
-* Multitenant model for managing applications, devices and credentials
-* Integrate with any system using MQTT, WebSockets or directly accessing Kafka
-* Manage IoT workloads for the Edge
-* Run on-premise or in the cloud
+* Multitenant model for managing applications, devices and credentials.
+* Integrate with any system using MQTT, WebSockets or directly accessing Kafka.
+* Manage IoT workloads for the Edge.
+* Run it on-premise or in the cloud.
 
 Go to [https://sandbox.drogue.cloud](https://sandbox.drogue.cloud) and see for yourself!
     </td>
