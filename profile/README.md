@@ -7,8 +7,13 @@ Drogue IoT consists of components that may be used standalone or together:
 
 Go to our [documentation](https://book.drogue.io/drogue-cloud/dev/index.html) to get started with Drogue IoT, and join the community [chat](https://matrix.to/#/#drogue-iot:matrix.org).
 
-## Cloud
-
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Cloud</b></td>
+    <td><b style="font-size:30px">Device</b></td>
+ </tr>
+ <tr>
+    <td>
 With Drogue Cloud you can:
 
 * Report telemetry data using open standards like HTTP, MQTT, CoAP or third party networks like LoRaWAN, LTE-M or NB-IoT.
@@ -18,15 +23,17 @@ With Drogue Cloud you can:
 * Run on-premise or in the cloud
 
 Go to [https://sandbox.drogue.cloud](https://sandbox.drogue.cloud) and see for yourself!
-
-## Device
-
+    </td>
+    <td>
 Drogue Device is an SDK for building embedded applications in Rust.
 
 * Robust: built using [Rust](https://www.rust-lang.org), an efficient, memory safe and thread safe programming language.
 * Efficient: uses [embassy](https://github.com/embassy-rs/embassy), the embedded async project, to deliver a fast and small runtime.
 * IoT Ready: provides out of the box drivers and examples for WiFi, LoRaWAN and BLE.
 * Composable: provides both an task-based and an Actor-based programming model for writing efficient and composable applications.
+    </td>
+ </tr>
+</table>
 
 ## Getting started
 
