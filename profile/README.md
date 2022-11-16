@@ -3,7 +3,7 @@ The Drogue IoT project aims to bring together data and users in an _Internet of 
 Drogue IoT consists of components that may be used standalone or together:
 
 * **Drogue Cloud** is an efficient and scalable connectivity layer for forwarding telemetry data safely from devices to business applications, and commands back to devices. 
-* **Drogue Device** is a distribution of tools and examples for building IoT-ready applications.
+* **Drogue Device** is a distribution of tools and examples for building IoT applications.
 
 <table border="0">
  <tr>
@@ -27,8 +27,7 @@ Drogue Device is a distribution of tools and examples for building IoT-ready app
 
 * Robust: built using [Rust](https://www.rust-lang.org), an efficient, memory safe and thread safe programming language.
 * Efficient: uses [embassy](https://github.com/embassy-rs/embassy), the embedded async project, to deliver a fast and small runtime.
-* IoT Ready: provides out of the box drivers and examples for WiFi, LoRaWAN and BLE.
-* Composable: provides both an task-based and an Actor-based programming model for writing efficient and composable applications.
+* IoT Ready: provides out of the box drivers and examples for WiFi, LoRaWAN and BLE and Over The Air (OTA) updates.
     </td>
  </tr>
 </table>
